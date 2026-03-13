@@ -1,6 +1,11 @@
 #ifndef PROJECT_GRID_H
 #define PROJECT_GRID_H
 
+// Library Headers
+#include "SDL.h"
+
+// Project Headers
+#include "world.h"
 #include "cell.h"
 
 #define GRID_SIZE_X 96

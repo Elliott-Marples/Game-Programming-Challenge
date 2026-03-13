@@ -31,7 +31,7 @@ void Cell::Render(SDL_Renderer* renderer) {
 	case true:
 		SDL_SetRenderDrawColor(renderer, 255, 0, 0, 255);
 	case false:
-		SDL_SetRenderDrawColor(renderer, 0, 0, 0, 255);
+		SDL_SetRenderDrawColor(renderer, 0, 0, 255, 255);
 	}
 
 	SDL_RenderFillRect(renderer, &rect);

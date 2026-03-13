@@ -61,6 +61,8 @@ void World::Render() {
 	SDL_RenderClear(renderer);
 
 	grid.Render(renderer);
+
+	SDL_RenderPresent(renderer);
 }
 
 void World::Destroy() {
